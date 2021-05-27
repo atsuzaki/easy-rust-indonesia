@@ -15,13 +15,13 @@
 
 ## Introduction
 
-Rust adalah bahasa baru yang telah memiliki textbook yang mumpuni. Namun terkadang textbooknya sendiri cukup sulit untuk dipahami karena textbook tersebut ditulis untuk native-English speaker. Sekarang, beberapa perusahaan dan individu mempelajari Rust, dan mungkin saja mereka bisa mempelajarinya lebih cepat apabila menggunakan textbook yang bahasa Inggrisnya lebih mudah. Untuk itulah textbook ini diperuntukkan bagi mereka yang ingin mempelajari Rust dengan bahasa Inggris yang sederhana (mudah dipahami).
+Rust adalah bahasa baru yang telah memiliki buku-buku yang mumpuni. Namun terkadang buku yang tersedia cukup sulit untuk dipahami karena buku cetak tersebut ditulis dalam Bahasa Inggris, untuk _native-English speaker_. Sekarang, beberapa perusahaan dan individu mempelajari Rust, dan mungkin saja mereka bisa mempelajarinya lebih cepat apabila menggunakan buku yang ditulis dalam bahasa yang lebih mudah dipahami. Untuk itulah buku ini diperuntukkan bagi mereka yang ingin mempelajari Rust dengan bahasa yang lebih sederhana (mudah dipahami).
 
-Rust merupakan bahasa pemrograman yang tergolong baru, namun sudah sangat populer. Ia populer karena memberikan Anda kecepatan dan kontrol sebagaimana C atau C++, namun juga memberikan keamanan memori sebagaimana seperti pemrograman yang baru seperti Python (hanya saja dengan cara yang berbeda). Ia juga hadir dengan beberapa idea yang baru, yang mana berbeda dari bahasa pemrograman lainnya. Yang artinya ada hal-hal yang baru yang mesti dipelajari dan Anda tidak bisa begitu saja "memahaminya sambil berjalan" (tidak seperti bahasa Python atau JS yang mana kita bisa dengan mudah memahaminya sambil mengerjakan project-project hands-on). Rust adalah bahasa yang harus Anda pikirkan sejenak untuk dipahami. Tetapi Rust masih terlihat cukup familiar jika Anda mengetahu beberapa bahasa lain, dan ini membantu Anda menulis code dengan baik.
+Rust merupakan bahasa pemrograman yang tergolong baru, namun telah meraih popularitas yang tinggi. Ia populer karena bahasa pemrograman ini dapat memberikan Anda kecepatan dan kontrol sebagaimana C atau C++, namun juga memberikan keamanan memori sebagaimana bahasa pemrograman yang lebih modern seperti Python (hanya saja dengan cara yang berbeda). Ia juga hadir dengan beberapa ide-ide baru yang berbeda dari bahasa pemrograman lainnya. Ini berarti bahwa ada hal-hal baru yang mesti dipelajari, dan Anda tidak bisa begitu saja "memahaminya sambil berjalan" (tidak seperti bahasa Python atau JS yang mana kita dapat dengan mudah memahaminya sambil mengerjakan projek secara langsung). Rust adalah bahasa yang harus Anda pikirkan sejenak untuk dipahami. Namun, Rust masih terlihat cukup familiar jika Anda telah mengetahui beberapa bahasa pemrograman lain, dan ini membantu Anda menulis _code_ dengan baik.
 
-## Who am I?
+## _Who am I?_
 
-Saya adalah seorang berkebangsaan Canada yang tinggal di Korea, dan Saya menulis Easy Rust sembari memikirkan bagaimana caranya membuat Rust menjadi mudah dipelajari untuk perusahaan-perusahaan yang baru mulai menggunakannya. Saya harap negara-negara lain yang tidak menggunakan bahasa Inggris sebagai bahasa utamanya juga bisa menggunakan textbook ini.
+Saya adalah seorang berkebangsaan Canada yang tinggal di Korea, dan Saya menulis Easy Rust sembari memikirkan bagaimana caranya membuat Rust menjadi mudah dipelajari untuk perusahaan-perusahaan yang baru mulai menggunakannya. Saya harap negara-negara lain yang tidak menggunakan bahasa Inggris sebagai bahasa utamanya juga bisa menggunakan buku cetak ini.
 
 ## Catatan dari translator
 
@@ -31,12 +31,12 @@ Meskipun translasi ini telah rampung, namun bisa saja ada kesalahan disana-sini,
 Jika Anda menemukan kesalahan-kesalahan tersebut, Anda bisa menghubungi saya via [LinkedIn](https://www.linkedin.com/in/ariandy-noviar-a126a5188/) atau langsung melakukan PR ke [repositori Github dari project ini](https://github.com/ariandy/easy-rust-indonesia).
 
 ### Saran
-- Saya menyarankan Anda untuk sambil menonton video di [kanal YouTube](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk) yang disediakan oleh [Dave MacLeod](https://www.linkedin.com/in/davemacleod) karena banyak detil-detil penting di video-video tersebut yang tidak tertulis di buku ini. Videonya merupakan suplemen yang baik untuk mendapatkan pemahaman yang lebih baik tentang Rust.
-- Jika Anda telah selesai membaca buku ini, ada baiknya Anda membaca Official Rust Book. Setelah membaca buku ini, mungkin membaca Official Rust Book akan menjadi lebih mudah.
-- Sebelum membaca buku ini, ada baiknya apabila sebelumnya Anda telah menggunakan bahasa pemrograman yang lain. Karena ada beberapa istilah teknis yang tetap saya biarkan saja. Karena bagi saya akan lebih mudah dipahami jika term tersebut dibiarkan begitu saja dibandingkan setelah diterjemahkan. Beberapa contohnya, saya tidak akan menerjemahkan "method", "closure", "statement", "trait" atau juga "compiler", dll. Akan aneh rasanya di saat saya menerjemahkan "compiler" menjadi "kompilator".
+- Saya menyarankan Anda untuk sambil menonton video di [kanal YouTube](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk) yang disediakan oleh [Dave MacLeod](https://www.linkedin.com/in/davemacleod) karena banyak detil-detil penting di video-video tersebut yang tidak tertulis di dalam buku ini. Video-video tersebut merupakan suplemen yang baik untuk mendapatkan pemahaman yang lebih baik tentang Rust.
+- Jika Anda telah selesai membaca buku ini, ada baiknya Anda membaca buku "Official Rust Book". Setelah membaca buku ini, mungkin "Official Rust Book" akan lebih mudah dimengerti.
+- Sebelum membaca buku ini, ada baiknya apabila sebelumnya Anda telah menggunakan bahasa pemrograman yang lain. Karena ada beberapa istilah teknis yang tetap saya biarkan saja. Karena bagi saya akan lebih mudah dipahami jika _term_ tersebut dibiarkan begitu saja dibandingkan setelah diterjemahkan. Beberapa contohnya, saya tidak akan menerjemahkan _"method"_, _"closure"_, _"statement"_, _"trait"_ atau juga _"compiler"_, dll. Akan aneh rasanya di saat saya menerjemahkan _"compiler"_ menjadi "kompilator".
 
 ### Catatan lain
-- Proses translasi yang saya lakukan benar-benar spontan, sehingga ada beberapa terjemahan yang sifatnya tidak konsisten. Contohnya, terkadang saya membiarkan "return" tidak diterjemahkan. Sedangkan di tempat lainnya saya terjemahkan menjadi "kembalian". Begitu juga dengan "print". Di beberapa tulisan, saya biarkan ia tetap tertulis "print", namun di tulisan yang lain, saya menerjemahkannya dengan "cetak". Saya masih memikirkan apakah ke depannya ini perlu diseragamkan (jika diterjemahkan, semuanya ikut diterjemahkan, dan sebaliknya), ataukah tetap dibiarkan seperti itu saja.
+- Proses translasi yang saya lakukan benar-benar spontan, sehingga ada beberapa terjemahan yang sifatnya tidak konsisten. Contohnya, terkadang saya membiarkan _"return"_ tidak diterjemahkan. Sedangkan di tempat lainnya saya terjemahkan menjadi "kembalian". Begitu juga dengan _"print"_. Di beberapa tulisan, saya biarkan ia tetap tertulis _"print"_, namun di tulisan yang lain, saya menerjemahkannya dengan "cetak". Saya masih memikirkan apakah ke depannya ini perlu diseragamkan (jika diterjemahkan, semuanya ikut diterjemahkan, dan sebaliknya), ataukah tetap dibiarkan seperti itu saja.
 - Karena saya menerjemahkannya dan menuliskannya secara spontan pula, banyak penulisan yang melanggar kaidah EYD. Contohnya, ada beberapa bagian saya menulis "di" yang semestinya dipisah menjadi "di" yang disambung . Hal ini pun akan saya perbaiki.
 - Judul dari setiap bab untuk sementara ini akan saya biarkan dalam bahasa Inggris (kecuali judul untuk bab ini).
 
@@ -164,18 +164,18 @@ Selamat membaca!
 
 # Part 1 - Rust in your browser
 
-Buku ini memiliki 2 bagian. Di Part 1, Anda akan mempelajari Rust dengan browser yang Anda miliki. Anda sebenarnya bisa mempelajari hampir semua yang perlu Anda ketahui tanpa menginstall Rust, jadi Part 1 sangatlah panjang. Dan, bagian akhirnya adalah Part 2. Bagian ini jauh lebih pendek, dan bagian ini memerlukan Rust yang terinstall pada komputer. Bagian ini adalah dimana Anda akan mempelajari segala hal yang perlu Anda tahu, namun hanya bisa dipelajari setelah menginstall Rust di komputer anda. Contohnya: berurusan dengan file, mengambil input dari user, grafik, dan personal settings. Semoga dengan berakhirnya Part 1 Anda cukup tertarik untuk menginstall Rust di komputer Anda. Dan jika Anda tidak tertarik, juga tidak masalah. Karena Part 1 sudah memberikan Anda gambaran yang banyak dan cukup baik tentang Rust.
+Buku ini memiliki 2 bagian. Di Part 1, Anda akan mempelajari Rust dengan _browser_ yang Anda miliki. Anda sebenarnya bisa mempelajari hampir semua yang perlu Anda ketahui tanpa menginstall Rust, jadi Part 1 sangatlah panjang. Dan, bagian akhirnya adalah Part 2. Bagian ini jauh lebih pendek, dan bagian ini memerlukan Rust yang terinstall pada komputer. Bagian ini adalah dimana Anda akan mempelajari segala hal yang perlu Anda tahu, namun hanya bisa dipelajari setelah menginstall Rust di komputer anda. Contohnya: berurusan dengan file, mengambil input dari user, grafik, dan personal settings. Semoga dengan berakhirnya Part 1 Anda cukup tertarik untuk menginstall Rust di komputer Anda. Dan jika Anda tidak tertarik, juga tidak masalah. Karena Part 1 sudah memberikan Anda gambaran yang banyak dan cukup baik tentang Rust.
 
 ## Rust Playground
 **[See this chapter on YouTube](https://youtu.be/-lYeJeQ11OI)**
 
-Mungkin Anda tidak ingin menginstall Rust sekarang, dan itu tidak apa. Anda bisa ke [https://play.rust-lang.org/](https://play.rust-lang.org/) dan mulai menulis Rust hanya dengan sebuah browser. Anda bisa menuliskan code Anda di laman itu dan meng-klik Run untuk melihat hasilnya. Anda bisa menjalankan hampir semua contoh code di buku ini di dalam Playground yang Anda buka di browser. Hanya pada bagian menjelang akhir, Anda akan melihat beberapa contoh code yang tidak bisa dijalankan di Playground (seperti membuka files).
+Mungkin Anda tidak ingin menginstall Rust sekarang, dan itu tidak apa. Anda bisa ke [https://play.rust-lang.org/](https://play.rust-lang.org/) dan mulai menulis Rust hanya dengan sebuah _browser_. Anda bisa menuliskan _code_ Anda di laman itu dan meng-klik Run untuk melihat hasilnya. Anda bisa menjalankan hampir semua contoh code di buku ini di dalam situs Playground yang Anda buka di browser. Hanya pada bagian menjelang akhir, Anda akan melihat beberapa contoh code yang tidak bisa dijalankan di Playground (seperti membuka files).
 
 Ini adalah beberapa tips di saat menggunakan Rust Playground:
 
 - Jalankan code menggunakan Run
-- Ubah Debug ke Release jika Anda menginginkan code Anda menjadi lebih cepat. Debug: compile lebih cepat, run lebih lambat, dan menampilkan debug information. Release: compile lambat, run lebih cepat, debug information dihilangkan.
-- Klik Share untuk mendapatkan URL link. Anda dapat menggunakannya untuk membagikan code Anda jika saja Anda memerlukan bantuan. Setelah Anda mengklik share, Anda bisa klik pada `Open a new thread in the Rust user forum` untuk menanyakan ke orang lain agar mendapatkan bantuan.
+- Ubah Debug ke Release jika Anda menginginkan code Anda menjadi lebih cepat. Debug: _compile_ lebih cepat, _run_ lebih lambat, dan menampilkan _debug information_. Release: _compile_ lambat, _run_ lebih cepat, _debug information_ dihilangkan.
+- Klik Share untuk mendapatkan URL link. Anda dapat menggunakannya untuk membagikan _code_ Anda jika saja Anda memerlukan bantuan. Setelah Anda mengklik share, Anda bisa klik pada `Open a new thread in the Rust user forum` untuk menanyakan ke orang lain agar mendapatkan bantuan.
 - Tools: Rustfmt akan memformat code Anda agar menjadi rapi.
 - Tools: Clippy akan memberi Anda informasi lanjutan tentang bagaimana untuk membuat code Anda menjadi lebih baik lagi.
 - Config: disini Anda bisa mengubah theme ke dark mode sehingga mata Anda bisa bekerja dengan aman di malam hari, dan juga konfigurasi yang lainnya.
@@ -184,12 +184,12 @@ Jika Anda ingin menginstall Rust, silahkan ke [https://www.rust-lang.org/tools/i
 
 ## 🚧 and ⚠️
 
-Terkadang, Anda akan menemukan beberapa code yang menjadi contoh pada textbook ini tidak berfungsi/berjalan. Jika code tersebut tidak berfungsi, ia akan ditandai dengan tanda 🚧 atau ⚠️. 🚧 itu seperti "under construction": yang berarti bahwa code yang ditulis sebenarnya tidaklah lengkap. Rust memerlukan sebuah `fn main()` (main function) untuk menjalankan programnya. Tapi terkadang kita merasa hanya perlu untuk menuliskan bagian kecil dari code tersebut sehingga beranggapan bahwa kita tidak lagi memerlukan `fn main()`. Code seperti itu memanglah benar, tapi tentu saja tetap memerlukan sebuah `fn main()` untuk menjalankannya. Dan beberapa contoh code memperlihatkan sebuah problem yang mana akan kita perbaiki perlahan-lahan. Untuk code yang mungkin telah memiliki `fn main()` namun tetap menghasilkan error, maka akan ditandai dengan menggunakan simbol ⚠️.
+Terkadang, Anda akan menemukan beberapa _code_ yang menjadi contoh pada buku ini tidak berfungsi/berjalan. Jika code tersebut tidak berfungsi, ia akan ditandai dengan tanda 🚧 atau ⚠️. 🚧 itu seperti "under construction": yang berarti bahwa code yang ditulis sebenarnya tidaklah lengkap. Rust memerlukan sebuah `fn main()` (main function) untuk menjalankan programnya. Tapi terkadang kita merasa hanya perlu untuk menuliskan bagian kecil dari _code_ tersebut sehingga beranggapan bahwa kita tidak lagi memerlukan `fn main()`. _Code_ seperti itu memanglah benar, tapi tentu saja tetap memerlukan sebuah `fn main()` untuk menjalankannya. Dan beberapa contoh code memperlihatkan sebuah problem yang mana akan kita perbaiki perlahan-lahan. Untuk _code_ yang mungkin telah memiliki `fn main()` namun tetap menghasilkan _error_, maka akan ditandai dengan menggunakan simbol ⚠️.
 
 ## Comments
 **[See this chapter on YouTube](https://youtu.be/fJ7jBZG_Rpo)**
 
-Comments / Komentar berguna untuk dibaca oleh programmer, bukan untuk komputer. Adalah hal yang baik untuk menulis komentar agar orang lain menjadi mudah untuk membaca code yang telah dibuat. Hal ini juga bagus untuk membantu diri kita sendiri mengerti code yang telah kita buat. (Banyak orang yang sudah menulis code programnya dengan mantap, namun seiring waktu berjalan, dan dia mulai membaca lagi code yang sudah lama sudah tidak dia sentuh, mereka lupa mengapa mereka menulis bagian tersebut.)
+Comments / Komentar berguna untuk dibaca oleh programmer, bukan untuk komputer. Adalah hal yang baik untuk menulis komentar agar orang lain menjadi mudah untuk membaca _code_ yang telah dibuat. Hal ini juga bagus untuk membantu diri kita sendiri mengerti _code_ yang telah kita buat. (Banyak orang yang sudah menulis _code_ programnya dengan mantap, namun seiring waktu berjalan, dan dia mulai membaca lagi _code_ yang sudah lama sudah tidak dia sentuh, mereka lupa mengapa mereka menulis bagian tersebut.)
 
 Untuk menulis komentar di Rust, Anda biasanya menggunakan `//`:
 
@@ -201,7 +201,7 @@ fn main() {
 }
 ```
 
-Apabila Anda menjalankan code tersebut, compiler akan mengabaikan apapun yang tertulis setelah `//`. 
+Apabila Anda menjalankan _code_ tersebut, compiler akan mengabaikan apapun yang tertulis setelah `//`. 
 
 Ada pula cara berbeda untuk menulis komentar, yaitu dengan cara menulis `/*` pada bagian awalnya dan `*/` pada bagian akhirnya. Cara menulis komentar seperti ini sangat berguna apabila kita ingin menulis komentar pada bagian tengah dari baris code anda.
 
@@ -211,7 +211,7 @@ fn main() {
 }
 ```
 
-Bagi compiler, `let some_number/*: i16*/ = 100;` terlihat sama dengan `let some_number = 100;`.
+Bagi _compiler_, `let some_number/*: i16*/ = 100;` terlihat sama dengan `let some_number = 100;`.
 
 Format `/* */` juga sangat berguna untuk komentar yang panjang (lebih dari 1 baris). Pada contoh ini, Anda bisa melihat bahwa Anda perlu menuliskan `//` untuk setiap baris. Namun jika Anda menggunakan `/*`, apa yang ditulis setelahnya akan tetap dianggap komentar, sampai ia ditutup dengan `*/`.
 
@@ -231,26 +231,26 @@ fn main() {
 
 ## Types
 
-Rust memiliki beberapa type, entah berupa angka, karakter, dsb. Beberapa type tersebut tergolong sederhana, sedangkan yang lainnya tergolong lebih rumit. Anda juga bisa membuat type Anda sendiri.
+Rust memiliki beberapa _type_, entah berupa angka, karakter, dsb. Beberapa _type_ tersebut tergolong sederhana, sedangkan yang lainnya tergolong lebih rumit. Anda juga bisa membuat _type_ Anda sendiri.
 
 ### Primitive types
 **[See this chapter on YouTube](https://youtu.be/OxTPU5UGMhs)**
 
-Rust memiliki type sederhana yang biasanya disebut sebagai **primitive types** (primitive = paling dasar). Kita akan memulainya dengan integer dan `char` (karakter). Integer adalah semua angka yang tidak berkoma. Ada 2 type integer:
+Rust memiliki _type_ sederhana yang biasanya disebut sebagai **primitive types** (primitive = paling dasar). Kita akan memulainya dengan integer dan `char` (karakter). Integer adalah semua angka yang tidak berkoma. Ada 2 type integer:
 
 - Signed integers (Integer bertanda),
 - Unsigned integers (Integer tidak bertanda).
 
 Bertanda artinya `+` (tanda tambah) dan `-` (tanda minus), maka integer bertanda bisa jadi positif atau negatif (contohnya, +8, -8). Namun, integer tidak bertanda hanya dapat menyimpan bilangan bulat positif, karena ia tidak memiliki tanda.
 
-Type-type integer bertanda adalah sebagai berikut: `i8`, `i16`, `i32`, `i64`, `i128`, dan `isize`.
-Sedangkan ini adalah type-type integer tidak bertanda: `u8`, `u16`, `u32`, `u64`, `u128`, dan `usize`.
+_Type-type_ integer bertanda adalah sebagai berikut: `i8`, `i16`, `i32`, `i64`, `i128`, dan `isize`.
+Sedangkan ini adalah _type-type_ integer tidak bertanda: `u8`, `u16`, `u32`, `u64`, `u128`, dan `usize`.
 
-Angka setelah i ataupun u adalah panjang bit yang digunakan untuk menyimpan bilangan, jadi semakin besar angkanya, semakin banyak pula bit yang digunakan. 8 bit = 1 byte, jadi `i8` adalah 1 byte, `i64` adalah 8 byte, dan seterusnya. Type dengan panjang bit yang lebih lebar bisa menyimpan angka yang lebih besar. Contohnya, `u8` bisa menyimpan sampai dengan 255, sedangakan `u16` bisa menyimpan sampai dengan 65535. Juga `u128` bisa menyimpan sampai dengan 340282366920938463463374607431768211455.
+Angka setelah i ataupun u adalah panjang bit yang digunakan untuk menyimpan bilangan, jadi semakin besar angkanya, semakin banyak pula bit yang digunakan. 8 bit = 1 _byte_, jadi `i8` adalah 1 byte, `i64` adalah 8 byte, dan seterusnya. _Type_ dengan panjang bit yang lebih lebar bisa menyimpan angka yang lebih besar. Contohnya, `u8` bisa menyimpan sampai dengan 255, sedangakan `u16` bisa menyimpan sampai dengan 65535. Juga `u128` bisa menyimpan sampai dengan 340282366920938463463374607431768211455.
 
 Apa itu `isize` dan `usize`? Kedua type tersebut menandakan bahwa compiler akan mencocokkan ukuran bit dengan arsitektur komputer anda. (Jumlah bit pada komputer Anda biasanya disebut sebagai **arsitektur**.) Jadinya `isize` dan `usize` pada komputer 32-bit adalah `i32` dan `u32`, juga `isize` dan `usize` pada komputer 64-bit adalah `i64` dan `u64`.
 
-Ada banyak alasan mengapa ada banyak sekali type dari integer. Salah satunya adalah performa: angka yang menggunakan byte yang kecil lebih cepat untuk diproses. Contohnya, angka -10 pada `i8` representasi binernya adalah `11110110`, namun pada `i128` representasi binernya adalah `11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110110`. Selain itu, ada juga beberapa kegunaan lainnya, seperti:
+Ada banyak alasan mengapa ada banyak sekali type dari integer. Salah satunya adalah performa: angka yang menggunakan _byte_ yang kecil lebih cepat untuk diproses. Contohnya, angka -10 pada `i8` representasi binernya adalah `11110110`, namun pada `i128` representasi binernya adalah `11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110110`. Selain itu, ada juga beberapa kegunaan lainnya, seperti:
 
 Karakter di Rust disebut sebagai `char`. Setiap `char` memiliki angka: huruf `A` memiliki nilai 65, sedangkan karakter `友` ("kawan" dalam Bahasa Mandarin) memiliki nilai 21451. Angka-angka ini disebut sebagai "Unicode". Unicode yang menggunakan angka yang lebih kecil diperuntukkan bagi karakter yang sering digunakan, seperti A sampai Z, atau digit 0 sampai 9, maupun spasi.
 
@@ -263,9 +263,9 @@ fn main() {
 }
 ```
 
-Karakter yang seringkali digunakan tersebut kebanyakan memiliki nilai dibawah dari 256. Maka, karakter-karakter tersebut muat jikalau disimpan didalam `u8`. Ingat, `u8` bisa menyimpan dari 0 sampai dengan 255, yang artinya, totalnya adalah 256. Ini berarti bahwa Rust bisa dengan aman melakukan **cast** dari `u8` ke `char`, menggunakan `as`. ("Cast `u8` ke `char`" artinya "perlakukan `u8` sebagai `char`")
+Karakter yang seringkali digunakan tersebut kebanyakan memiliki nilai dibawah dari 256. Maka, karakter-karakter tersebut muat jikalau disimpan didalam `u8`. Ingat, `u8` bisa menyimpan dari 0 sampai dengan 255, yang artinya, totalnya adalah 256. Ini berarti bahwa Rust bisa dengan aman melakukan _**cast**_ dari `u8` ke `char`, menggunakan `as`. ("_Cast_ `u8` ke `char`" artinya "perlakukan `u8` sebagai `char`")
 
-Melakukan Cast menggunakan `as` sangatlah berguna karena Rust benar-benar sangat ketat. Rust selalu perlu untuk mengetahui type yang digunakan dan tidak akan membiarkan kita menggunakan tipe data yang berbeda meskipun keduanya berupa integer. Pada contoh dibawah ini, code ini tidak akan berjalan:
+Melakukan _Cast_ menggunakan `as` sangatlah berguna karena Rust benar-benar sangat ketat. Rust selalu perlu untuk mengetahui _type_ yang digunakan dan tidak akan membiarkan kita menggunakan tipe data yang berbeda meskipun keduanya berupa integer. Pada contoh dibawah ini, code ini tidak akan berjalan:
 
 ```rust
 fn main() { // main() adalah dimana program Rust mulai berjalan. Sedangkan codenya dituliskan di dalam {} (curly brackets)
@@ -289,7 +289,7 @@ error[E0604]: only `u8` can be cast as `char`, not `i32`
   |                    ^^^^^^^^^^^^^^^^^
 ```
 
-Untungnya, kita bisa dengan mudah memperbaiki ini dengan menggunakan `as`. Kita tidak bisa melakukan cast  `i32` sebagai `char`, tapi kita bisa cast `i32` sebagai `u8`. Dan karena itu, kita bisa melakukan yang sama pada `u8` ke `char`. Maka kita menggunakan `as` untuk membuat my_number menjadi `u8`, dan di baris baru, kemudian mengubahnya lagi menjadi `char`. Jalankan code ini:
+Untungnya, kita bisa dengan mudah memperbaiki ini dengan menggunakan `as`. Kita tidak bisa melakukan _cast_  `i32` sebagai `char`, tapi kita bisa _cast_ `i32` sebagai `u8`. Dan karena itu, kita bisa melakukan yang sama pada `u8` ke `char`. Maka kita menggunakan `as` untuk membuat my_number menjadi `u8`, dan di baris baru, kemudian mengubahnya lagi menjadi `char`. Jalankan program ini:
 
 ```rust
 fn main() {
@@ -309,7 +309,7 @@ fn main() {
 }
 ```
 
-Itu merupakan 2 alasan mengapa ada banyak sekali type integer di Rust. Ini adalah alasan lainnya: `usize` adalah type yang digunakan Rust untuk keperluan *indexing*. (Indexing artinya "yang mana item yang pertama", "yang mana item yang kedua", dan seterusnya.) `usize` adalah type yang cocok untuk melakukan indexing, karena:
+Itu merupakan 2 alasan mengapa ada banyak sekali type integer di Rust. Ini adalah alasan lainnya: `usize` adalah type yang digunakan Rust untuk keperluan _*indexing*_. (Indexing artinya "yang mana item yang pertama", "yang mana item yang kedua", dan seterusnya.) `usize` adalah type yang cocok untuk melakukan indexing, karena:
 
 - Sebuah index tidak bisa negatif, jadi yang diperlukan adalah bilangan tidak bertanda (u)
 - Integer yang digunakan harus berukuran besar, karena terkadang kita perlu untuk meng-index banyak hal, tapi
@@ -320,11 +320,11 @@ Jadi Rust menggunakan `usize` dan menyerahkan pada komputer kita untuk menentuka
 Mari kita pelajari lebih lanjut tentang `char`. Dapat dilihat bahwa `char` selalu berisi hanya 1 karakter, dan menggunakan `''`, bukan `""`.
 
 Semua `chars` menggunakan 4 byte memori, karena sejauh ini 4 bytes cukup untuk menampung hampir semua karakter apapun yang ada sekarang:
-- Huruf-huruf dasar dan simbol biasanya memerlukan 1 dari 4 byte: `a b 1 2 + - = $ @`
-- Aksara lainnya, seperti German Umlaut, memerlukan 2 dari 4 byte: `ä ö ü ß è é à ñ`
+- Huruf-huruf dasar dan simbol biasanya memerlukan 1 dari 4 _byte_: `a b 1 2 + - = $ @`
+- Aksara lainnya, seperti German Umlaut, memerlukan 2 dari 4 _byte_: `ä ö ü ß è é à ñ`
 - Aksara Korea, Jepang atau Mandarin memerlukan 3 atau 4 byte: `国 안 녕`
 
-Di saat menggunakan karakter sebagai bagian dari sebuah string, maka string akan di-encode untuk menggunakan sesedikit mungkin memori yang dibutuhkan untuk setiap karakter.
+Di saat menggunakan karakter sebagai bagian dari sebuah _string_, maka _string_ akan di-_encode_ untuk menggunakan sesedikit mungkin memori yang dibutuhkan untuk setiap karakter.
 
 Kita bisa menggunakan `.len()` untuk melihat ini:
 
@@ -348,7 +348,7 @@ Size of string containing '国': 3
 Size of string containing '𓅱': 4
 ```
 
-Anda bisa melihat bahwa huruf `a` memerlukan 1 byte, aksara Jerman `ß` memerlukan 2 byte, aksara Jepang `国` memerlukan 3 byte, dan aksara Mesir kuno `𓅱` memerlukan 4 byte.
+Anda bisa melihat bahwa huruf `a` memerlukan 1 byte, aksara Jerman `ß` memerlukan 2 _byte_, aksara Jepang `国` memerlukan 3 _byte_, dan aksara Mesir kuno `𓅱` memerlukan 4 _byte_.
 
 ```rust
 fn main() {
@@ -390,14 +390,14 @@ Slice2 is 7 bytes but only 3 characters.
 ## Type inference
 **[See this chapter on YouTube](https://youtu.be/q1D2vpy3kEI)**
 
-Type inference artinya adalah, jika Anda tidak memberitahukan type yang Anda gunakan, tapi compiler bisa memilihkannya, maka compiler yang nantinya akan memilihkan typenya. Compiler Rust selalu perlu mengetahui type dari sebuah variabel, namun Anda tidak selalu perlu untuk memberitahukannya. Dan sebenarnya, biasanya Anda memang tidak perlu memberitahukannya. Sebagai contoh, pada chapter sebelumnya, untuk `let my_number = 8`, `my_number` akan menjadi `i32`. Ini dikarenakan compiler secara default akan memilih i32 untuk integer jika Anda tidak memberitahukannya. Namun jika Anda memberitahukannya, seperti `let my_number: u8 = 8`, maka itu akan membuat `my_number` bertype `u8`, karena Anda memberitahu ke compiler untuk menggunakan type `u8`.
+_Type inference_ berarti bahwa, jika Anda tidak memberitahukan _type_ yang Anda gunakan dan _compiler_ bisa memilihkannya berdasarkan konteks yang tersedia, maka compiler nantinya akan memilihkan _type_ yang sesuai untuk variabel tersebut. _Compiler_ Rust selalu perlu mengetahui _type_ dari sebuah variabel, namun Anda tidak selalu harus menyatakannya. Biasanya Anda memang tidak perlu menyatakannya. Sebagai contoh, pada bab sebelumnya, untuk pernyataan `let my_number = 8`, `my_number` akan secara otomatis memiliki _type_ `i32`. Ini dikarenakan _compiler_ secara default akan memilihkan i32 untuk_ integer_ jika Anda tidak memberitahukannya. Namun jika Anda memberitahukannya, seperti dalam pernyataan `let my_number: u8 = 8`, maka `my_number` akan memiliki _type_ `u8`, karena Anda menyatakan secara eksplisit ke pada _compiler_ untuk menggunakan _type_ `u8`.
 
-Jadi, sebenarnya compiler bisa memilihkan type untuk kita. Tapi terkadang kita perlu memberitahukannya ke compiler, karena 2 alasan berikut:
+Biasanya _compiler_ dapat memilihkan type untuk kita. Akan tetapi, terkadang kita perlu memberitahukan _type_ yang kita inginkan ke pada _compiler_, karena 2 alasan berikut:
 
-1) Kita membuat sesuatu yang lumayan kompleks dan compiler tidak tahu type yang kita inginkan.
-2) Kita menginginkan type yang berbeda (contohnya, Anda ingin `i128`, bukan `i32`).
+1) Kita membuat sesuatu yang lumayan kompleks dan _compiler_ tidak tahu _type_ yang kita inginkan.
+2) Kita menginginkan _type_ yang berbeda (contohnya, jikalau Anda menginginkan `i128`, bukan `i32`).
 
-Untuk menambahkan type, tambahkan colon (titik dua) setelah nama variabel dan juga type yang Anda perlukan.
+Untuk menambahkan _type_, tambahkan simbol _colon_ (titik dua) setelah nama variabel, diikuti oleh _type_ yang Anda inginkan.
 
 ```rust
 fn main() {
@@ -405,7 +405,7 @@ fn main() {
 }
 ```
 
-Untuk angka, Anda bisa menyebutkan typenya setelah angka. Anda sama sekali tidak memerlukan spasi. Cukup dituliskan tepat setelah angkanya.
+Untuk angka, Anda bisa menyebutkan _type_-nya setelah angka. Anda sama sekali tidak memerlukan spasi. Cukup dituliskan tepat setelah angkanya.
 
 ```rust
 fn main() {
@@ -413,7 +413,7 @@ fn main() {
 }
 ```
 
-Anda juga bisa menambahkan `_` jika Anda ingin membuat angkanya menjadi mudah untuk dibaca.
+Anda juga bisa menambahkan `_` jika Anda ingin membuat angka bernominal besar lebih mudah dibaca.
 
 ```rust
 fn main() {
@@ -422,7 +422,7 @@ fn main() {
 }
 ```
 
-Underscore (`_`) tidak akan mengubah nilainya. Ia berguna sekedar untuk mempermudah kita dalam pembacaan code. Dan sama sekali tidak masalah seberapa `_` yang kita gunakan:
+_Underscore_ (`_`) tidak akan mengubah nilainya. Ia berguna sekedar untuk mempermudah kita dalam membaca program. Banyaknya dari `_` yang digunakan tidak akan merubah nilai dari angka tersebut:
 
 ```rust
 fn main() {
@@ -432,7 +432,7 @@ fn main() {
 }
 ```
 
-Ia akan mencetak `0, 1624`.
+Program ini akan mencetak `0, 1624`.
 
 ### Floats
 
